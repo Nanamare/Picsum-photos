@@ -50,3 +50,9 @@ MinSdkVersion : 21+
   * [BitmapRegionDecoder](https://github.com/davemorrissey/subsampling-scale-image-view/blob/master/library/src/main/java/com/davemorrissey/labs/subscaleview/decoder/SkiaImageRegionDecoder.java#L37) 
 을 사용하여, 이미지 전체를 가져오는 것이 아닌 부분적으로 가지고 오기 때문에, 매우 큰 이미지도 열화 현상 없이 보여줄 수 있어서 사용.
 (보통 21 이상 버전에서는 4096 x 4096 까지 opengles 가 그려낼 수 있음)
+* Testing
+  * kotlinx-coroutines-test
+  * core-testing
+  * hamcrest-library
+  * Junit
+  * mockito 
