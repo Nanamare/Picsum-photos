@@ -4,6 +4,14 @@
 
 삼성 갤러리 앱은 어떤식으로 만드는 것일까? Touch Scoll 에 따라 Column, Row 갯수가 변경되는, LayoutManager 을 만들어서 적용하는 것이 목표.
 
+### Preview
+| | | |
+|:-------------------------:|:-------------------------:| :-------------------------:|
+|| Phone | Tablet |
+| Vertical |<img src="preview/vertical.jpg" width="200"/> |  <img src="preview/tablet_vertical.jpg" width="200"/> | |
+| Horizontal |<img src="preview/horizontal.jpg" height="200"/> |  <img src="preview/tablet_horizontal.jpg" height="200"/>
+
+### Version
 MinSdkVersion : 21+
 
 ### Architecture
@@ -42,10 +50,3 @@ MinSdkVersion : 21+
   * [BitmapRegionDecoder](https://github.com/davemorrissey/subsampling-scale-image-view/blob/master/library/src/main/java/com/davemorrissey/labs/subscaleview/decoder/SkiaImageRegionDecoder.java#L37) 
 을 사용하여, 이미지 전체를 가져오는 것이 아닌 부분적으로 가지고 오기 때문에, 매우 큰 이미지도 열화 현상 없이 보여줄 수 있어서 사용.
 (보통 21 이상 버전에서는 4096 x 4096 까지 opengles 가 그려낼 수 있음)
-
-### Preview
-| | | |
-|:-------------------------:|:-------------------------:| :-------------------------:|
-|| Phone | Tablet |
-| Vertical |<img src="preview/vertical.jpg" width="200"/> |  <img src="preview/tablet_vertical.jpg" width="200"/> | |
-| Horizontal |<img src="preview/horizontal.jpg" height="200"/> |  <img src="preview/tablet_horizontal.jpg" height="200"/>
