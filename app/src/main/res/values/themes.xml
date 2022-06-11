@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PickPick" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+
+        <item name="colorPrimaryDark">?colorSurface</item>
+        <item name="colorAccent">?colorPrimary</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">?colorPrimaryDark</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+        <item name="colorOnSurface">@color/gray100</item>
+        <item name="colorOnSurface90">@color/gray90</item>
+        <item name="colorOnSurface10">@color/gray10</item>
+
+        <item name="colorError">@android:color/holo_red_light</item>
+
+        <item name="closeIcon">@drawable/ic_sketch_light</item>
+
+    </style>
+
+    <style name="Theme.PickPick" parent="Base.Theme.PickPick" />
+
+    <style name="Theme.PickPick.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PickPick.NoActionBar.Dark">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="ThemeOverlay.AlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/MaterialDialog</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialDialog.Title.Text</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialDialog.Body.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Dialog.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.Dialog.Button.Negative</item>
+        <item name="shapeAppearanceMediumComponent">
+            @style/ShapeAppearance.MediumComponent.Radius
+        </item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="ThemeOverlay.AlertDialog.Image">
+        <item name="alertDialogStyle">@style/MaterialDialog.Image</item>
+    </style>
+
+</resources>

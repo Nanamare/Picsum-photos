@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 적당히 고른 값 https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=E040FB -->
+    <color name="color_primary">#e040fb</color>
+    <color name="color_primary_variant">#aa00c7</color>
+
+    <color name="color_secondary">#FF03DAC5</color>
+    <color name="color_secondary_variant">#FF018786</color>
+
+    <color name="color_on_secondary">#FF000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="gray100">#1f1f1f</color>
+    <color name="gray90">#333333</color>
+    <color name="gray10">#f4f4f4</color>
+    <color name="gray5">#f9f9f9</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+
+</resources>

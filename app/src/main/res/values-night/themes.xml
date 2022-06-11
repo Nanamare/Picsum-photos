@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.PickPick" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_secondary</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">?colorPrimaryDark</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+        <item name="colorOnSurface">@color/gray5</item>
+        <item name="colorOnSurface90">@color/gray10</item>
+        <item name="colorOnSurface10">@color/gray90</item>
+
+        <item name="closeIcon">@drawable/ic_sketch_dark</item>
+
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+</resources>

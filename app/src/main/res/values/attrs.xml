@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorOnSurface10" format="reference" />
+    <attr name="colorOnSurface90" format="reference" />
+
+    <attr name="closeIcon" format="reference" />
+
+    <declare-styleable name="PlaceHolderView">
+        <attr name="titleText" format="reference|string" />
+        <attr name="contentText" format="reference|string" />
+        <attr name="buttonText" format="reference|string" />
+    </declare-styleable>
+</resources>

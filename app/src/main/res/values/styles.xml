@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialDialog" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="android:layout">@layout/alert_dialog</item>
+        <item name="backgroundInsetStart">11dp</item>
+        <item name="backgroundInsetEnd">11dp</item>
+    </style>
+
+    <style name="MaterialDialog.Image">
+        <item name="android:layout">@layout/alert_dialog_image</item>
+    </style>
+
+    <style name="MaterialDialog.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AlertDialog.Title</item>
+    </style>
+
+    <style name="MaterialDialog.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AlertDialog.Body</item>
+    </style>
+
+    <style name="Widget.Dialog.Button.Positive" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">?textAppearanceBody1</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="rippleColor">?attr/colorControlHighlight</item>
+    </style>
+
+    <style name="Widget.Dialog.Button.Negative" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">?textAppearanceBody1</item>
+        <item name="android:textColor">#505050</item>
+        <item name="android:backgroundTint">#f4f4f4</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="rippleColor">?attr/colorControlHighlight</item>
+    </style>
+
+    <style name="ShapeAppearance.MediumComponent.Radius" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="TextAppearance.AlertDialog.Title" parent="TextAppearance.Headline3">
+        <item name="android:textAppearance">?textAppearanceHeadline3</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.AlertDialog.Body" parent="TextAppearance.Body3">
+        <item name="android:textColor">?textColorAlertDialogListItem</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+
+    <style name="TextAppearance" parent="">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="TextAppearance.Headline3">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">-0.001</item>
+        <item name="android:textSize">17sp</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="TextAppearance.Body3">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+
+</resources>
